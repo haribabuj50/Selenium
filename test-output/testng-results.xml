@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24618" started-at="2016-03-24T19:24:59Z" finished-at="2016-03-24T19:25:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24618" started-at="2016-03-24T19:24:59Z" finished-at="2016-03-24T19:25:23Z">
+      <class name="COM.FTR.ASR.ASR_ED_Order_REG">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:COM.FTR.ASR.ASR_ED_Order_REG@1a407d53]" name="beforeTest" is-config="true" duration-ms="5761" started-at="2016-03-24T14:24:59Z" finished-at="2016-03-24T14:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ASR_ED_OrderCreation()[pri:0, instance:COM.FTR.ASR.ASR_ED_Order_REG@1a407d53]" name="ASR_ED_OrderCreation" duration-ms="18831" started-at="2016-03-24T14:25:05Z" finished-at="2016-03-24T14:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASR_ED_OrderCreation -->
+        <test-method status="FAIL" signature="takeSnapShot(org.openqa.selenium.WebDriver, java.lang.String)[pri:0, instance:COM.FTR.ASR.ASR_ED_Order_REG@1a407d53]" name="takeSnapShot" is-config="true" duration-ms="0" started-at="2016-03-24T14:25:23Z" finished-at="2016-03-24T14:25:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method takeSnapShot requires 2 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method takeSnapShot requires 2 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1021)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSnapShot -->
+      </class> <!-- COM.FTR.ASR.ASR_ED_Order_REG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
